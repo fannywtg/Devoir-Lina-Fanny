@@ -1,0 +1,58 @@
+style.css
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px
+	font-family: 'Roboto', sans-serif;
+	color:white;}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;}
+
+header{
+	height: 100px}
+
+footer{
+	height: 80px;
+	text-align: center;
+	color:white;
+	background:black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	border-top:2px;
+	padding-top: 30px}
+
+
+
+
+nav li{
+	float:left;
+	background: yellow;
+	list-style-type: none;}
+
+nav ul{
+	margin:0px;
+	padding:0px;}
+
+nav{
+	width: 100%;}
+	
+
+nav a{
+	padding:20px 30px;
+	display: inline-block;
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;}
+
+
+.menu{
+display: table;
+margin: 0 auto;}
+
+
+
+
