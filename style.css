@@ -5,15 +5,24 @@ body{
 	padding: 0px;
 	font-size: 13px
 	font-family: 'Roboto', sans-serif;
-	color:white;}
+	color:white;
+}
 
 h1{
 	font-size: 40px;
 	text-align: center;
-	font-family: 'Yanone Kaffeesatz', sans-serif;}
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h2{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 
 header{
-	height: 100px}
+	height: 100px
+}
 
 footer{
 	height: 80px;
@@ -23,36 +32,89 @@ footer{
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	border-top:2px;
-	padding-top: 30px}
-
-
+	padding-top: 30px
+}
 
 
 nav li{
 	float:left;
-	background: yellow;
-	list-style-type: none;}
+	background: rgb(245, 210, 85);
+	list-style-type: none;
+}
 
 nav ul{
-	margin:0px;
-	padding:0px;}
+	margin: 0px;
+	padding: 0px;
+}
 
 nav{
-	width: 100%;}
+	width: 100%;
+	background: rgb(245, 210, 85);
+	margin: 0 auto;
+}
 	
 
 nav a{
-	padding:20px 30px;
+	padding: 20px 30px;
 	display: inline-block;
 	color:black;
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;}
+	font-size: 15px;
+	width: 100%;
+}
+
+a:hover {
+  position: relative;
+  top:1px;
+  }
+
+p{
+  justify-content: center;
+}
 
 
 .menu{
 display: table;
-margin: 0 auto;}
+margin: 0 auto;
+}
+
+#navigation {
+margin : 0 auto;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#bandeannonce {
+height: 500px;
+align-content: center;
+justify-content: center;
+}
+
+.container {
+margin: 0px 10%;
+margin-left: 0px;
+margin-right: 0px;
+padding: 20px 30px;
+display: inline-flex;
+}
+
+.right {
+background: #d9d9d9;
+padding: 20px;
+font-family: 'Roboto', sans-serif;
+float: left;
+width : 50%;
+}
+
+.left{
+float: left;
+align-content: center;
+width : 50%;	
+}
 
 
+@media screen and (max-width: 780px)
 
 
