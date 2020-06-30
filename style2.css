@@ -42,7 +42,7 @@ footer{
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	border-top:2px;
-	padding-top: 30px
+	padding-top: 30px;
 }
 
 
@@ -81,7 +81,7 @@ a:hover {
 p{
   justify-content: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 
@@ -117,15 +117,16 @@ background: #d9d9d9;
 padding: 20px;
 font-family: 'Roboto', sans-serif;
 float: left;
+text-align: justify;
 width : 50%;
 }
 
 .left{
 float: left;
 align-content: center;
+justify-content: center;
 width : 50%;	
 }
-
 
 .réalisateurs{
   border:2px solid #F2F2F2;
@@ -156,7 +157,6 @@ width : 50%;
   	text-align: center;
   	witdh:400px;
   }
-
  
 
  img{
